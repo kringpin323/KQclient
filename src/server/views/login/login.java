@@ -216,7 +216,7 @@ public class login extends JFrame implements MouseListener
 
 			}
 		}
-		else if(jl == jl_apply)
+		else if(jl == jl_apply)   
 		{
 			//			apply a= new apply();
 			//´ËÌÉêÕˆĞÂµÄQQÙ~Ì–
