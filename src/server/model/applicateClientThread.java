@@ -66,7 +66,7 @@ public class applicateClientThread extends Thread
 			}
 			else
 			{
-				changed = 2;   //服务器响应，但没得到应有的连接
+				changed = 2;   //服务器响应，但没得到应有的连接,没有返回任何对象，同一个IP申请过多的QQ，服务器不给予响应
 			}
 			client.close();
 		}

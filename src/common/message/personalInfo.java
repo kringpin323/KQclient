@@ -54,24 +54,21 @@ public class personalInfo implements Serializable // 个人资料
 	public String password=""; //password系数据库里面不存在一起就不代表无
 	
 	//还有三个发送主框架，聊天时的变量未设置，到时在设置
-	
+	//password, nickname, sex, year, month, day, country, province, city
 	public personalInfo(String password,String nickname,String sex,
-			int age,String bri_year,String bri_month,String bri_day,
-			String zodiacsign,String constellation,String bloodtype,
+			String bri_year,String bri_month,String bri_day,
+			String country,
 			String province,String city)
 	{
 		// 申请时用
 		super();
 		this.password = password;
 		this.nickname=nickname;
-		this.sex=sex;
-		this.age=age;
+		this.sex=sex; 
 		this.bri_year=bri_year;
 		this.bri_month = bri_month;
 		this.bri_day = bri_day;
-		this.zodiacsign = zodiacsign;
-		this.constellation = constellation;
-		this.bloodtype = bloodtype;
+		this.country = country;
 		this.province = province;
 		this.city= city;
 		

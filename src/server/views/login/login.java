@@ -8,6 +8,8 @@ import java.net.UnknownHostException;
 
 import javax.swing.*;
 
+import server.views.apply.*;
+
 public class login extends JFrame implements MouseListener
 {
 	/*
@@ -218,7 +220,7 @@ public class login extends JFrame implements MouseListener
 		}
 		else if(jl == jl_apply)   
 		{
-			//			apply a= new apply();
+			apply a= new apply();
 			//´ËÌŽÉêÕˆÐÂµÄQQÙ~Ì–
 		}
 	}
